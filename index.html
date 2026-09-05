@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>barangas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top" id="home">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#home">
+                <i class="fa-solid fa-cube me-1"></i> B&Co.
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-menu navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container py-4">
+            <span class="badge bg-white bg-opacity-25 text-white rounded-pill px-3 py-2 mb-3">Version 5.3.8</span>
+            <h1 class="display-5 fw-bold mb-3">Build fast, responsive sites with Bootstrap</h1>
+            <p class="lead col-lg-8 mx-auto mb-4 opacity-75">
+                Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="#pricing" class="btn btn-light btn-lg px-4 fw-semibold text-primary">Get Started</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg px-4 fw-semibold">Download Bootstrap 5.3.8</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-2">Powerful Features</h2>
+            <p class="text-muted mb-5">Designed to give you full control over your layout and functionality.</p>
+            
+            <div class="row g-4">
+                <div class="col-md-4 text-start">
+                    <div class="card h-100 border p-3">
+                        <div class="card-body">
+                            <i class="fa-solid fa-moon text-primary fs-3 mb-3"></i>
+                            <h3 class="h5 card-title fw-bold">Dark Mode Ready</h3>
+                            <p class="card-text text-muted">Built-in theme switcher using bootstrap 5's native data-bs-theme attribute.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-start">
+                    <div class="card h-100 border p-3">
+                        <div class="card-body">
+                            <i class="fa-solid fa-mobile-screen-button text-primary fs-3 mb-3"></i>
+                            <h3 class="h5 card-title fw-bold">100% Mobile First</h3>
+                            <p class="card-text text-muted">Fully fluid layout engineered to scale down seamlessly to mobile screens.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-start">
+                    <div class="card h-100 border p-3">
+                        <div class="card-body">
+                            <i class="fa-solid fa-cubes text-primary fs-3 mb-3"></i>
+                            <h3 class="h5 card-title fw-bold">Interactive UI</h3>
+                            <p class="card-text text-muted">Includes dynamic feedback toasts, sliders, and form validation logic.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-2">Flexible Pricing</h2>
+            <p class="text-muted mb-5">Choose the plan that fits your business needs.</p>
+
+            <div class="row g-4 justify-content-center align-items-stretch">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 text-start">
+                        <h3 class="h5 fw-bold mb-3">Starter</h3>
+                        <div class="display-6 fw-bold mb-3">₱0.00 <span class="fs-6 text-muted fw-normal">/mo</span></div>
+                        <ul class="list-unstyled mb-4 text-muted">
+                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> 1 Active Project</li>
+                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Community Support</li>
+                            <li class="opacity-50"><i class="fa-solid fa-xmark me-2"></i> Custom Domain</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary mt-auto">Sign Up Free</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 text-start border-primary border-2 shadow-sm position-relative">
+                        <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary px-3">Most Popular</span>
+                        <h3 class="h5 fw-bold text-primary mb-3">Pro Developer</h3>
+                        <div class="display-6 fw-bold mb-3">₱49.00 <span class="fs-6 text-muted fw-normal">/mo</span></div>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Unlimited Projects</li>
+                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Priority Support</li>
+                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Custom Domain</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary mt-auto">Get Started Pro</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 text-start">
+                        <h3 class="h5 fw-bold mb-3">Enterprise</h3>
+                        <div class="display-6 fw-bold mb-3">₱109.00 <span class="fs-6 text-muted fw-normal">/mo</span></div>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Dedicated Server</li>
+                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> 24/7 Phone Support</li>
+                            <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> SLA Guarantee</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary mt-auto">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">What People Say</h2>
+            <div class="col-md-8 mx-auto">
+                <p class="fst-italic fs-5 mb-3">"The responsive structure and custom-coded modular elements made scaling our company platform an effortless experience!"</p>
+                <h4 class="h6 fw-bold mb-0">Bernadeth D. Panaligan</h4>
+                <div class="fw-semibold small">BSIT - Business Analytics Track</div>
+                <div class="text-muted small">UI/UX Designer</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Get In Touch</h2>
+                <p class="text-muted">Fill out the form below to send us a live message.</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="#" method="POST">
+                        <div class="mb-3">
+                            <label for="first-name" class="form-label fw-semibold">First Name</label>
+                            <input type="text" class="form-control" id="first-name" name="first_name" required placeholder="Enter first name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="form-label fw-semibold">Last Name</label>
+                            <input type="text" class="form-control" id="last-name" name="last_name" required placeholder="Enter last name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-semibold">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="you@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label fw-semibold">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit Form</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 border-top text-center">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="text-dark me-3"><i class="fa-brands fa-facebook fs-5"></i></a>
+                <a href="#" class="text-dark me-3"><i class="fa-brands fa-x-twitter fs-5"></i></a>
+                <a href="#" class="text-dark"><i class="fa-brands fa-github fs-5"></i></a>
+            </div>
+            <p class="text-muted small mb-0">&copy; 2026 B&Co. Built with Bootstrap 5.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
